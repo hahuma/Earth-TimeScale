@@ -47,6 +47,7 @@ div{
     padding: 15px;
     outline: none;
     transition: max-height 0.6s ease-out;
+    text-align: left;
 }
 
 .accordion:hover{
@@ -64,7 +65,7 @@ div{
 
 .panel{
     padding: 0 18px;
-    background-color: black;
+    background-color: white;
     display: none;
     overflow: hidden;
 }
