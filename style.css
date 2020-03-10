@@ -37,7 +37,7 @@ body {
 
 }
 
-.accordion{
+.subject .accordion{
     
     cursor: pointer;
     border: none;
@@ -49,11 +49,11 @@ body {
     transition: max-height 0.6s ease-out;
 }
 
-.accordion:hover{
+.subject .accordion:hover{
     background-color: #6e5151;
 }
 
-.accordion:after{
+.subject .accordion:after{
     content: '\2795';
     font-size: 13px;
     color: #777;
@@ -62,13 +62,13 @@ body {
 
 }
 
-.panel{
+.subject .panel{
     padding: 0 18px;
     background-color: black;
     display: none;
     overflow: hidden;
 }
 
-.active:after{
+.subject .active:after{
     content:"\2796"
 }
