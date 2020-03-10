@@ -9,7 +9,7 @@
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-image: url("./background.jpg");
     scroll-snap-type: mandatory;
 
@@ -31,7 +31,6 @@ div{
     flex-direction: column;
     margin-right: 100px;
     margin-top: 20%;
-    position: relative;
     width: 340px;
     height: 110px;
 
