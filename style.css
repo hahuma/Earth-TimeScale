@@ -31,7 +31,7 @@ div{
     flex-direction: column;
     margin-right: 100px;
     margin-top: 20%;
-    position: absolute;
+    position: relative;
     width: 340px;
     height: 110px;
 
