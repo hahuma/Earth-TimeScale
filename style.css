@@ -81,8 +81,9 @@ div.sideMenu{
 .panel{
     padding: 0 18px;
     background-color: white;
-    display: none;
+    max-height: 0;
     overflow: hidden;
+
 }
 
 .active:after{
