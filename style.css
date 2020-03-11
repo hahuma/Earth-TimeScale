@@ -66,8 +66,8 @@ body{
 }
 
 .sideMenu{
-  position: absolute;
-  bottom:0.5%;
+   position: absolute;
+   bottom:0.6%;
     margin-left:70%;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,6 @@ body{
 }
 
 .accordion{
-    
     cursor: pointer;
     border: none;
     color: #FFF;
@@ -115,4 +114,15 @@ body{
 
 .active:after{
     content:"\2796"
+}
+
+.redirect{
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+    background-color: #FF0040;
+    padding: 20px 15px;
+    outline: none;
+    text-align: left;
+    opacity: 0.9;
 }
