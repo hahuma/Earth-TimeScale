@@ -14,7 +14,7 @@
     width:100%;
     padding: 12px;
     background-color: #FF0040;
-    opacity: 0.4;
+    opacity: 0.9;
 }
 
 h1.title{
@@ -64,7 +64,7 @@ div.sideMenu{
     outline: none;
     transition: max-height 0.2s ease-out;
     text-align: left;
-    opacity: 0.4;
+    opacity: 0.9;
 }
 
 .accordion:hover{
