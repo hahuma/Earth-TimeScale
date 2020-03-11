@@ -11,7 +11,7 @@ h1.title{
     font-weight: bold;
     font-style:  italic;
     font-size: 36;
-    align-content: center;
+    align-self: center;
     color: #FFF;
 }
 
