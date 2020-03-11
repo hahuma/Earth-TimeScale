@@ -7,15 +7,24 @@
     font-family: 'Roboto', sans-serif, Helvetica;
 }
 
+.topTitle{
+    justify-content:center;
+    display:flex;
+    position: absolute;
+    width:100%;
+    padding: 12px;
+    background-color: #855a5a;
+}
+
 h1.title{
+    display:flex;
     font-weight: bold;
     font-style:  italic;
     font-size: 36;
-    align-self: center;
-    color: #FFF;
+    color:white;
 }
 
-body {
+body{
     display: flex;
     flex-direction: row;
     background-image: url("./background.jpg");
@@ -33,7 +42,7 @@ body {
     border-radius: 50%;
 }
 
-main{
+div.sideMenu{
     display: flex;
     flex-direction: column;
     margin-right: 100px;
