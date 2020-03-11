@@ -7,12 +7,17 @@
     font-family: 'Roboto', sans-serif, Helvetica;
 }
 
+h1.title{
+    font-weight: bold;
+    font-style:  italic;
+    font-size: 24;
+}
+
 body {
     display: flex;
     flex-direction: row;
     background-image: url("./background.jpg");
-    scroll-snap-type: mandatory;
-
+    flex-wrap: wrap;
 }
 
 #timeline {
