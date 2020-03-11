@@ -10,7 +10,9 @@
 h1.title{
     font-weight: bold;
     font-style:  italic;
-    font-size: 24;
+    font-size: 36;
+    align-content: center;
+    color: #FFF;
 }
 
 body {
