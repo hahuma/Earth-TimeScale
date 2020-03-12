@@ -14,6 +14,9 @@ for (i = 0; i < acc.length; i++) {
 }
 
 function toggleBar(){
-    document.getElementById('threeDot').classList.toggle('online')
     document.getElementById('bar').classList.toggle('online')
+}
+
+function showInformation1(){
+    
 }
