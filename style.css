@@ -19,7 +19,6 @@
 #bar{
     position: fixed;
     width: 200px;
-    height: 100%;
     background: #FF0040;
     left:-200px;
     float: left;
@@ -43,7 +42,7 @@ a{
 #bar ul button{
     background-color: #FF0040;
     color: #FFF;
-    padding: 15px 10px;
+    padding: 20px 10px;
     border-bottom: 1px solid rgba(100, 100, 100, 0.9)
 }
 
@@ -122,7 +121,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-right: 100px;
-    margin-top: 20%;
+    margin-top: 19%;
     width: 30%;
     height: 85%;
 }
