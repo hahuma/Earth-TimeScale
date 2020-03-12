@@ -30,8 +30,18 @@
     left:0px;
 }
 
-#bar ul li{
-    list-style: none;
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+#bar ul{
+    display:flex;
+    flex-direction: column;
+}
+
+#bar ul button{
+    background-color: #FF0040;
     color: #FFF;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(100, 100, 100, 0.9)
@@ -148,6 +158,7 @@ body{
   background-color: white;
   max-height: 0;
   overflow: hidden;
+  overflow-y:auto;
   transition: max-height 0.2s ease-out;
 
 }
