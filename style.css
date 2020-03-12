@@ -16,6 +16,49 @@
   height:100%
 }
 
+#bar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #FF0040;
+    left:-200px;
+    float: left;
+    transition: all 0.6s linear;
+}
+
+#bar.online{
+    left:0px;
+}
+
+#threeDot.online{
+    top: 
+    left:0px;
+}
+
+
+#bar ul li{
+    list-style: none;
+    color: #FFF;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.9)
+}
+
+#threeDot{
+    display:block;
+    position: absolute;
+    left: 230px;
+    top: 13px;
+}
+
+#threeDot span{
+    display: block;
+    width:30px;
+    height: 5px;
+    background: white;
+    margin: 2px;
+    border-radius: 2px;
+}
+
 .timeScale{
   /* margin-top:8.20%; */
   margin-right:2%;
