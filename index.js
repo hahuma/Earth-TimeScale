@@ -14,5 +14,13 @@ for (i = 0; i < acc.length; i++) {
 }
 
 function toggleBar(){
-    document.getElementById('bar').classList.toggle('online')
+  let bar = document.getElementById('bar')
+  let threeDot = document.getElementById('threeDot')
+  bar.classList.toggle('online')
+  if(bar.className == "online"){
+    threeDot.style.left = "0px"
+    threeDot.style.transition = "linear 0.3s"
+  }else{
+    threeDot.style.left = "50px"
+  }
 }
