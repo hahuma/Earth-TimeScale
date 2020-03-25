@@ -19,7 +19,6 @@ function toggleBar(){
   bar.classList.toggle('online')
   if(bar.className == "online"){
     threeDot.style.left = "0px"
-    threeDot.style.transition = "linear 0.3s"
   }else{
     threeDot.style.left = "50px"
   }
